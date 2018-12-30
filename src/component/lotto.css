@@ -1,0 +1,133 @@
+@media (max-width: 575.98px) { 
+
+}
+body{
+  background-color:#F0F0F0 /*whitesmoke*/;
+  margin:0px;
+}
+/*logo*/
+a:not([href]):not([tabindex]) {
+  color: #ffd699 ; 
+   text-decoration: none; 
+}
+.navbar-light .navbar-brand {
+  color: rgba(228, 74, 74, 0.9);
+  font-size: 1.5em
+}
+/*logo ends*/
+
+/*style for navigation bar*/
+.header{
+  background-color:#F8F8F8;/* whitesmoke...#98b2e6*/
+}
+
+.btn-outline-success {
+    color: #98b2e6;
+    border-color: #F8f8f8;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #98b2e6;
+  border-color: #98b2e6;
+}
+/*style for nav ends*/
+
+/*buy tickets speech*/
+.dialogue{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+/*buy tickets ends*/
+
+.lotto {
+    list-style-type: none;
+    text-align: center;
+    height: 120px;
+    width: 200px;
+    background-color:white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 5px grey;
+}
+.lot {
+  /*background-color: aquamarine;*/
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/*PLAY NOW BUTTON*/
+.btn-success{
+  background-color: #98b2e6;
+  border-color:#a6aab1;
+  margin-bottom: 0px;
+}
+.btn-success:hover {
+  color:#fff;
+  background-color: #0066ff;
+  border-color:#0066ff;
+}
+/*PLAY ends*/
+.writing {
+  font-family: 'Nunito';
+}
+ul{
+  margin: 0px
+}
+/*HOW IT WORKS*/
+.alert-info {
+  color: black;
+  background-color: #98b2e6;
+  border-color: #98b2e6;
+  text-align: center;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border-top: 0.5px solid whitesmoke
+}
+.icon{
+  margin-left: 10px
+}
+/*how ends*/
+.ion-icon {
+  font-size: 8px;
+}
+
+.modal {
+  display: block;  /*Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding: auto; /* Location of the box */
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  top: 150px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#space {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
